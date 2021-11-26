@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Driverlogin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:background="@drawable/background">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/user"
+            android:layout_width="match_parent"
+            android:layout_height="173dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            app:cardCornerRadius="8dp"
+
+            >
+            <LinearLayout
+                android:background="@drawable/user1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+        <EditText
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="  Please enter vehicle number"
+            android:id="@+id/UserVeh"
+            android:drawableLeft="@drawable/ic_baseline_emoji_transportation_24"
+                         />
+        <Button
+            android:drawableLeft="@drawable/ic_baseline_play_circle_outline_24"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:id="@+id/StartT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start live tracking"
+            />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

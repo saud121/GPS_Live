@@ -1,0 +1,24 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=31:5E:FC:26:0C:48:E4:78:5C:BD:21:4C:8F:C9:02:05:B4:F3:38:63%3Bcom.example.solidwaste
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    com.example.solidwaste
+
+    SHA-1 certificate fingerprint:
+    31:5E:FC:26:0C:48:E4:78:5C:BD:21:4C:8F:C9:02:05:B4:F3:38:63
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyD9l_y6jhKVq1KKSJ4NwquIOPFKtSNh0M0</string>
+</resources>

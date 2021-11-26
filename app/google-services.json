@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "850110188497",
+    "firebase_url": "https://solidwaste-3edd4-default-rtdb.firebaseio.com",
+    "project_id": "solidwaste-3edd4",
+    "storage_bucket": "solidwaste-3edd4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:850110188497:android:ccc20e1de1a04fa4e1eef0",
+        "android_client_info": {
+          "package_name": "com.example.solidwaste"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "850110188497-uot4ou0btt44fhdqujedatvhgfg4cu0p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf6ur4LVpsIJ88kYPoftIjPYGiRbsCjXE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "850110188497-uot4ou0btt44fhdqujedatvhgfg4cu0p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
